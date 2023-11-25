@@ -4,17 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hu.me.iit.distributedsystems</groupId>
-    <artifactId>openfeign</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>NewNepton</artifactId>
     <version>1.0.0.0</version>
     <packaging>pom</packaging>
-s
+
     <modules>
-        <module>discovery-server</module>
-        <module>article-memory-crud</module>
-        <module>article-memory-crud-eureka</module>
-        <module>openfeign-client</module>
-        <module>openfeign-client-ribbon-eureka</module>
+
+        <module>Nepton-memory-crud</module>
+        <module>Nepton-memory-crud-eureka</module>
+        <module>Nepton-openfeign-client</module>
+        <module>Nepton-openfeign-client-ribbon-eureka</module>
+        <module>Nepton-server-eureka</module>
+
     </modules>
 
 </project>
